@@ -9,7 +9,7 @@ PACKAGE_DIR='NitroAdvanceFHD/main'
 MY_FILE="NitroAdvanceFHD.tar.gz"
 #####################################################
 
-MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
+MY_MAIN_URL="https://raw.githubusercontent.com/tar1971/"
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
 MY_TMP_FILE="/tmp/"$MY_FILE
 
@@ -39,7 +39,7 @@ if [ -f $MY_TMP_FILE ]; then
 	if [ $MY_RESULT -eq 0 ]; then
         echo "#########################################################"
         echo "#  NitroAdvanceFHD Skin $version INSTALLED SUCCESSFULLY      #"
-        echo "#                BY BIKO - support on                   #"
+        echo "#                BY TAR - support on                   #"
         echo "#   https://www.tunisia-sat.com/forums/forums/182/      #"
         echo "#########################################################"
         echo "#           your Device will RESTART Now                #"
